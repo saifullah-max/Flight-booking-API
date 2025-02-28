@@ -13,3 +13,4 @@ router.get("/:id/verify/:token", verifyToken);
 router.post("/login", authLoginController);
 
 module.exports = router;
+
