@@ -1,11 +1,13 @@
 Flight Booking API - Overview
 This API allows users to search, book, and manage flight tickets. It includes user authentication, flight searching, booking management, and cancellation features.
+
 Key Features:
 ✅ User Authentication: Signup, email verification, and login.
 ✅ Flight Search: Retrieve flights based on filters like departure city, arrival city, and departure date.
 ✅ Flight Details: Fetch specific flight details using a unique flight ID.
 ✅ Booking Management: Book flights, view booking details, list all user bookings, and cancel tickets.
 ✅ Seat Availability: Flight seat availability is updated dynamically upon booking or cancellation.
+
 Endpoints Overview:
 Auth: Signup (/auth/signup), Login (/auth/login)
 Flights: Search flights (/api/flights), Get flight details (/api/flights/:flightId)
